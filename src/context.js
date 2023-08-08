@@ -1,7 +1,7 @@
 import React,{ useContext, useEffect, useReducer } from "react";
 import reducer from "./reducer";
 
-// let API = 'https://newsapi.org/v2/everything?q=tech&apiKey=84079ee12c784213ac829991c4fa5162';
+
 
 const initialState = {
   articles:[],
@@ -37,7 +37,7 @@ const FetchApiData = async (url)=>{
     })
    }
     useEffect(()=>{
-        FetchApiData(`http://hn.algolia.com/api/v1/search_by_date?query${state.query}`);
+        FetchApiData(`https://newsapi.org/v2/everything?q=${state.query}&apiKey=84079ee12c784213ac829991c4fa5162`);
     },[state.query]) 
     return(
         <AppContext.Provider value={{...state , searchPost}}>{children}</AppContext.Provider>
