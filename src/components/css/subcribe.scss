@@ -1,0 +1,31 @@
+.subcribe{
+    margin: 50px 100px;
+    height: 476px;
+    padding: 105px;
+    background-color: #109BE9;
+    p{  
+        color: #ffff;
+        font-size: 62px;
+        font-weight: 700;
+    }
+    .subcribeinput{
+        display: flex;
+        justify-content: space-between;
+
+        input{
+            width: 851px;
+            height: 56px;
+            color: #9A9AB0;
+            font-size: 16px;
+            font-weight: 400;
+        }
+        button{
+        height: 56px;
+        padding: 18px 24px;
+        border-radius: 8px;
+        background: #F36326;
+        border: none;
+        color: #ffff;
+                }
+    }
+}

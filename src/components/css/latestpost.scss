@@ -1,0 +1,59 @@
+
+
+
+.latestpost{
+    margin: 0 50px;
+    height: 1204px;
+    .heading{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding:  10px 55px;
+        p{
+            color:#11142D;
+            font-size: 31px;
+            font-weight: 700;
+        }
+        button{
+             color: #ffff;
+             height: 45px;
+             padding: 5px 24px;
+             border-radius: 8px;
+             background: #F36326;
+             border: none;
+        }
+    }
+       .conatainer{
+        width: 100%;
+       }
+    .latestpostfeed{
+        width: 100%;
+        height: 534px;
+
+        .latestpostnews{
+            .latestpostimg{
+                width: 296px;
+                height: 312px;
+                background: #909090;
+                img{
+                    width: 296px;
+                height: 312px;
+                object-fit: cover;
+                    
+                }
+            }
+            .latestposttitle{
+             p{   color:#333;
+               font-size: 24px;
+               font-weight: 700;
+             }
+             span{
+                color:#9A9AB0;
+                font-size: 12px;
+                font-weight: 700;
+             }
+
+            }
+        }
+    }
+}

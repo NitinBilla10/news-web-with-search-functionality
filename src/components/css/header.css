@@ -1,0 +1,106 @@
+.header {
+  margin: 50px 50px;
+  margin-bottom: 0;
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.header .lftheader {
+  width: 610px;
+  height: 750px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.header .lftheader .categoryandtime {
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 700;
+}
+.header .lftheader .headernewstitle {
+  color: #FFF;
+  font-size: 62px;
+  font-weight: 700;
+}
+.header .lftheader .headerfeed {
+  display: flex;
+  justify-content: space-between;
+}
+.header .lftheader .headerfeed .headerfeednews {
+  width: 296px;
+  height: 185px;
+  padding: 10px;
+}
+.header .lftheader .headerfeed .headerfeednews .headerfeednewsimg {
+  width: 120px;
+  height: 80px;
+  background-color: #FFF;
+}
+.header .lftheader .headerfeed .headerfeednews .headerfeednewsimg img {
+  width: 120px;
+  height: 80px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.header .lftheader .headerfeed .headerfeednews .headerfeednewstitle {
+  color: #FFF;
+  font-weight: 700;
+  font-size: 16px;
+}
+.header .lftheader .headerfeednews:hover {
+  border-left: 4px solid white;
+  background-color: rgba(255, 255, 255, 0.1);
+  -webkit-backdrop-filter: blur(16px);
+          backdrop-filter: blur(16px);
+}
+.header .rghtheader {
+  width: 510px;
+  height: 750px;
+  background-color: rgba(255, 255, 255, 0.1);
+  -webkit-backdrop-filter: blur(16px);
+          backdrop-filter: blur(16px);
+  padding: 25px;
+}
+.header .rghtheader p {
+  color: #FFF;
+  font-size: 31px;
+  font-weight: 700;
+  margin: 0 0;
+}
+.header .rghtheader .popularfeedlist {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .rghtheader .popularfeedlist .popularfeed {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.header .rghtheader .popularfeedlist .popularfeed .popularfeedimg {
+  width: 144px;
+  height: 104px;
+  background-color: #FFF;
+}
+.header .rghtheader .popularfeedlist .popularfeed .popularfeedimg img {
+  width: 144px;
+  height: 104px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.header .rghtheader .popularfeedlist .popularfeed .popularfeeddetails {
+  padding: 7px;
+}
+.header .rghtheader .popularfeedlist .popularfeed .popularfeeddetails p {
+  color: #FFF;
+  font-size: 12px;
+  font-weight: 700;
+}
+.header .rghtheader .popularfeedlist .popularfeed .popularfeeddetails .polpularfeedtitle {
+  color: #FFF;
+}
+.header .rghtheader .popularfeedlist .popularfeed .popularfeeddetails .polpularfeedtitle p {
+  font-size: 16px;
+  font-weight: 700;
+}/*# sourceMappingURL=header.css.map */

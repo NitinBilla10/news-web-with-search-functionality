@@ -1,0 +1,104 @@
+.header{
+    margin: 50px 50px;
+    margin-bottom: 0;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+
+    .lftheader{
+        width: 610px;
+        height: 750px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .categoryandtime{
+            color:  #FFF;
+        font-size: 16px;
+        font-weight: 700;
+       
+        }
+        .headernewstitle{
+            color: #FFF;
+            font-size: 62px;
+            font-weight: 700;
+        }
+        .headerfeed{
+            display: flex;
+            justify-content: space-between;
+        .headerfeednews{
+            width: 296px;
+            height: 185px;
+            padding: 10px;
+            .headerfeednewsimg{
+                width: 120px;
+                height: 80px;
+                background-color: #FFF;
+                img{
+                    width: 120px;
+                height: 80px;
+                object-fit: cover; 
+                }
+            }
+            .headerfeednewstitle{
+                color: #FFF;
+                font-weight: 700;
+                font-size: 16px;
+            }
+        }
+    }
+    .headerfeednews:hover{
+        border-left: 4px solid #ffff;
+        background-color: rgba(255, 255, 255, 0.10);
+        backdrop-filter: blur(16px);
+    }
+    }
+    .rghtheader{
+        width: 510px;
+        height: 750px;
+        background-color: rgba(255, 255, 255, 0.10);
+        backdrop-filter: blur(16px);
+        padding: 25px;
+        
+        p{
+            color: #FFF;
+            font-size: 31px;
+            font-weight: 700;
+            margin: 0 0;
+        }
+        .popularfeedlist{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+        
+        .popularfeed{
+            margin-top: 15px;
+            display: flex;
+            justify-content: space-evenly;
+            .popularfeedimg{
+                width: 144px;
+                height: 104px;
+                background-color: #FFF;
+                img{
+                    width: 144px;
+                height: 104px;
+                object-fit: cover;
+                }
+            }
+            .popularfeeddetails{
+                padding: 7px;
+                p{
+                    color: #FFF;
+                    font-size: 12px;
+                    font-weight: 700;
+                }
+                .polpularfeedtitle{
+                    color: #FFF;
+                    p{font-size: 16px;
+                    font-weight: 700;}
+                }
+            }
+        }
+        }
+    }
+}

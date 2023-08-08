@@ -1,0 +1,42 @@
+.recentpost {
+  margin: 0 100px;
+}
+.recentpost p {
+  color: #11142D;
+  font-size: 31px;
+  font-weight: 700;
+}
+.recentpost .slider .swiper {
+  width: 1280px;
+  height: 570px;
+}
+.recentpost .slider .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.recentpost .slider .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.recentpost .card {
+  width: 395px;
+  height: 520px;
+}
+.recentpost .card img {
+  width: 395px;
+  height: 376px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.recentpost .card .card-text {
+  height: 185px;
+  overflow: hidden;
+}/*# sourceMappingURL=recentpost.css.map */
