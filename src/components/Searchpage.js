@@ -9,7 +9,7 @@ import useGobalContext from '../context'
 function Searchpage() {
 const {query , searchPost} = useGobalContext();
 const articles = useGobalContext();
-const [search,setSearch]=useState('');
+// const [search,setSearch]=useState('');
 
   return (
     <div>
@@ -19,7 +19,7 @@ const [search,setSearch]=useState('');
         <div class="mb-3">
          <input type="text" class="form-control" id="searchinput" placeholder=" Search......"
           value={query}
-           onChange={(e)=>{setSearch(e.target.value)}}
+           onChange={(e)=>{searchPost(e.target.value)}}
           //  onKeyDown={(e)=>{if(e.key === 'Enter'){searchPost(search)}}}
          />
         </div>
@@ -27,11 +27,11 @@ const [search,setSearch]=useState('');
       </div>
       <div className='searchresult'>
            <p>News</p>
-           {query&&
+           {articles.articles &&
             articles.articles.map((art,index)=>{
-            if(index<20){  return (          
+            if(index<25){  return (          
             <div className='searchfeed'>
-            <div className='searchfeedimg'>{console.log(articles)}</div>
+            <div className='searchfeedimg'>{<img src={art.urlToImage}/>}</div>
             <div>
             <div className='searchfeedtitle'>
              <p> {art.title}</p>

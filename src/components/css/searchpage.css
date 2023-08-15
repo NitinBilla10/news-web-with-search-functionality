@@ -36,6 +36,12 @@
   height: 359px;
   background-color: #909090;
 }
+.searchresult .searchfeed .searchfeedimg img {
+  width: 520px;
+  height: 359px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
 .searchresult .searchfeed .searchfeedtitle p {
   color: #333;
   font-size: 24px;

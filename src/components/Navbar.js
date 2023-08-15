@@ -1,6 +1,8 @@
 import React from 'react'
 import './css/navbar.css'
 
+
+
 function Navbar() {
   return (
     <div className='navbar'>
@@ -9,8 +11,8 @@ function Navbar() {
     </div>
     <div className='menu'>
         <ul>
-            <li>Home</li>
-            <li>Feature</li>
+            <a href='/'><li>Home</li></a>
+            <a href='/search'><li>Search</li></a>
             <li>About</li>
             <li>Contact</li>
         </ul>

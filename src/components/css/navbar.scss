@@ -19,9 +19,14 @@
         width: 40%;
     ul{
         display: flex;
-        justify-content: space-between;
-       
+        justify-content: space-between;    
         list-style: none;
+       a{ 
+        text-decoration: none;
+        li{
+            color: #ffff;
+           
+        }}
     }}
     button{
         height: 40px;

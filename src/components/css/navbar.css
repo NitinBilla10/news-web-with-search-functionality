@@ -20,6 +20,12 @@
   justify-content: space-between;
   list-style: none;
 }
+.navbar .menu ul a {
+  text-decoration: none;
+}
+.navbar .menu ul a li {
+  color: white;
+}
 .navbar button {
   height: 40px;
   color: white;
